@@ -1,3 +1,9 @@
+# Vs Code Config
+.vscode/
+
+# Test Folder
+Testes/
+
 # Prerequisites
 *.d
 
