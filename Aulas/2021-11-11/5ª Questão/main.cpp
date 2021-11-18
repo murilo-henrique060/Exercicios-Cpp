@@ -1,7 +1,9 @@
 #include <iostream>
+#include <locale.h>
 using namespace std;
 
 int main(){
+	setlocale(LC_ALL, "Portuguese");
 	int vet[10], i, j, menor;
 
 	for (i = 0; i < 10; i++){
@@ -11,10 +13,7 @@ int main(){
 
 	for (i = 9; i > 0; i--){
 		for (j = 0; j < i ; j++){
-<<<<<<< HEAD
 			cout << j;
-=======
->>>>>>> 1f2884755847df41363ebf0de6d5891b8af8edbe
 			if (vet[j] < vet[i]){
 				menor = vet[j];
 				vet[j] = vet[i];

@@ -1,7 +1,9 @@
 #include <iostream>
+#include <locale.h>
 using namespace std;
 
 int main(){
+	setlocale(LC_ALL, "Portuguese");
 	int i, vetorOriginal[10], vetorInvertido[10];
 	
 	for (i = 0; i < 10; i++){
